@@ -1,0 +1,37 @@
+
+body {
+    background-color: black;
+}
+
+#colorsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 25px;
+}
+
+.pColor {
+    text-shadow: 0px 0px 3px black;
+    font-size: 1.2rem;
+}
+
+.colorBox {
+    text-align: center;
+    margin: 10px;
+}
+
+#colorsForm {
+    padding: 25px;
+}
+
+#colorsInput,
+#msgkBtn {
+    font-size: 1rem;
+    padding: 5px;
+    color: rgb(91, 91, 91);
+    border: none;
+    border-radius: 3px;
+}
+
+#msgkBtn {
+    width: 80px;
+}
